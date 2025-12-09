@@ -4,17 +4,24 @@ import heroImage from '@/assets/hero-restaurant.jpg';
 import dish1 from '@/assets/dish-1.jpg';
 import dish2 from '@/assets/dish-2.jpg';
 import dish3 from '@/assets/dish-3.jpg';
+import galleryInterior1 from '@/assets/gallery-interior-1.jpg';
+import galleryInterior2 from '@/assets/gallery-interior-2.jpg';
+import galleryFood1 from '@/assets/gallery-food-1.jpg';
+import galleryFood2 from '@/assets/gallery-food-2.jpg';
+import galleryFood3 from '@/assets/gallery-food-3.jpg';
+import galleryFood4 from '@/assets/gallery-food-4.jpg';
 
 const galleryImages = [
   { src: heroImage, alt: 'Restaurant Main Dining Hall', category: 'Interior' },
   { src: dish1, alt: 'Wagyu Ribeye', category: 'Food' },
   { src: dish2, alt: 'Seared Scallops', category: 'Food' },
   { src: dish3, alt: 'Chocolate Dessert', category: 'Food' },
-  { src: heroImage, alt: 'Private Dining Room', category: 'Interior' },
-  { src: dish1, alt: 'Gourmet Steak', category: 'Food' },
-  { src: dish2, alt: 'Seafood Platter', category: 'Food' },
-  { src: heroImage, alt: 'Bar Area', category: 'Interior' },
-  { src: dish3, alt: 'Dessert Presentation', category: 'Food' },
+  { src: galleryInterior1, alt: 'Private Dining Room', category: 'Interior' },
+  { src: galleryFood1, alt: 'Grilled Lobster Tail', category: 'Food' },
+  { src: galleryFood2, alt: 'Truffle Risotto', category: 'Food' },
+  { src: galleryInterior2, alt: 'Bar Area', category: 'Interior' },
+  { src: galleryFood3, alt: 'Charcuterie Board', category: 'Food' },
+  { src: galleryFood4, alt: 'Tiramisu', category: 'Food' },
 ];
 
 type CategoryFilter = 'all' | 'Interior' | 'Food';
